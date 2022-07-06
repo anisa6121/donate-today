@@ -195,18 +195,23 @@ hr {
     background-color: slategray;
     height: 45px;
     width: 35%;
-    border-radius: 5%;
+    border-radius: 8px;
     border: none;
 
 }
-
+::placeholder {
+ 
+    color: white;
+   
+  
+}
 .form-box button {
     font-size: 18px;
     color: white;
     background-color: orangered;
     height: 45px;
     width: 16%;
-    border-radius: 5%;
+    border-radius: 8px;
     border: none;
 
 }
