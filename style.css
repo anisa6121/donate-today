@@ -1,0 +1,230 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.hero {
+    text-align: center;
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+
+
+}
+
+.hero h1 {
+    margin-top: 25%;
+    font-size: 52px;
+
+}
+
+.hero p {
+    margin-bottom: 9%;
+}
+
+.top-banner {
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    ;
+    height: 100vh;
+
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 20%;
+}
+
+.donate {
+    text-decoration: none;
+    padding: 15px 15px;
+    background-image: linear-gradient(rgb(240, 110, 110), orange);
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 45px;
+    margin-top: 8%;
+}
+
+.text p {
+    padding-left: 23%;
+    padding-right: 23%;
+    font-size: 15px;
+    color: gray;
+
+}
+
+section {
+    display: flex;
+
+}
+
+.flex-container {
+
+    justify-content: center;
+}
+
+.flex-container div {
+    width: 100px;
+    background-color: silver;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.fixed-money {
+
+    color: rgb(214, 7, 41);
+    border: 3px solid rgb(214, 7, 41);
+
+}
+
+.other-ammount {
+    text-align: center;
+    color: grey;
+}
+hr {
+ width: 70%;
+  margin-bottom: 4%;
+}
+
+.cards {
+    display: flex;
+    justify-content: center
+}
+.cards p{
+    color: gray;
+
+}
+
+.cards div {
+    width: 20%;
+    padding: 30px;
+    margin: 10px;
+}
+
+
+.card1 {
+    background-color: rgba(31, 210, 210, 0.241);
+}
+
+.card2 {
+    background-color: pink;
+}
+
+.card3 {
+
+    background-color: sandybrown;
+}
+
+.half-width {
+    margin-top: 8%;
+    margin-bottom: 2%;
+    margin-left: 12%;
+    margin-right: 3%;
+
+}
+
+.half-width img {
+    width: 70%;
+    padding-left: 100px;
+
+
+}
+
+.half-width h1 {
+    font-size: 30px;
+
+}
+.half-width p{
+
+    color: gray;
+
+}
+
+.cotribute {
+
+    text-decoration: none;
+    padding: 15px 15px;
+    background-image: linear-gradient(rgb(242, 11, 11), orange);
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+
+    margin-left: 12%;
+
+}
+
+.updates {
+    text-align: center;
+}
+
+.updates h1 {
+    font-size: 40px;
+}
+
+.updates p {
+    font-size: 15px;
+    margin-left: 18%;
+    margin-right: 18%;
+    color: cadetblue;
+}
+
+.box {
+    background-color: peachpuff;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.box div {
+    padding: 8%;
+}
+
+.form-box input {
+    font-size: 18px;
+
+    background-color: slategray;
+    height: 45px;
+    width: 35%;
+    border-radius: 5%;
+    border: none;
+
+}
+
+.form-box button {
+    font-size: 18px;
+    color: white;
+    background-color: orangered;
+    height: 45px;
+    width: 16%;
+    border-radius: 5%;
+    border: none;
+
+}
+
+footer {
+
+    padding: 3%;
+    background-color: black;
+}
+
+footer h1 {
+    font-family: 'Seaweed Script', cursive;
+    font-size: 55px;
+    text-align: center;
+    color: coral;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
